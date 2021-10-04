@@ -1,58 +1,41 @@
 <template>
     <div class="mx-auto">
-        <sidebar-menu :menu="menu" :collapsed="true"/>
-        <div class="mt-24">
-<!--            <nav class="p-2 py-2 flex flex-1 mt-4">-->
-<!--            </nav>-->
+        <div class="my-8">
+            <nav class="p-2 py-2 flex flex-1 mt-4">
+                <div class="flex flex-1 justify-end content-center text-gray-700 mr-8">
+                    <NuxtLink to="/" class="">Home</NuxtLink>
+                    <NuxtLink to="/projects" class="mx-4">Projects</NuxtLink>
+                    <NuxtLink to="/about" class="mr-4">About</NuxtLink>
+                    <NuxtLink to="#" class="mr-4">Hire me!</NuxtLink>
+                </div>
+            </nav>
+            <div class="grid grid-cols-11 gap-0 mb-10 mt-12">
+                <div class="col-start-4 col-end-9 mx-12">
+                    <div class="border-b flex pb-10">
+                        <img src="~/assets/me.jpeg" alt="" class="border rounded-full w-32">
+                        <div class="flex flex-col items-start justify-center ml-8">
+                            <h2 class="text-3xl">Arpit&nbsp;Yadav</h2>
+                            <p class="text-gray-600 text-lg">Software&nbsp;Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <nuxt></nuxt>
         </div>
     </div>
 </template>
 
-<script>
-    import { SidebarMenu } from 'vue-sidebar-menu'
-
-    export default {
-        data() {
-            return {
-                menu: [
-                    {
-                        header: true,
-                        title: 'MENU',
-                        hiddenOnCollapse: true
-                    },
-                    {
-                        href: '/',
-                        title: 'Home',
-                        icon: 'fas fa-home'
-                    },
-                    {
-                        href: '/projects',
-                        title: 'My Projects',
-                        icon: 'fab fa-app-store-ios'
-                    },
-                    {
-                        href: '/about',
-                        title: 'About',
-                        icon: 'fas fa-address-card'
-                    },
-                ]
-            }
-        },
-
-        components: {
-            SidebarMenu
-        }
-    }
-</script>
-
 <style>
-    .mono {
-        font-family: 'Source Code Pro', monospace;
+.mono {
+    font-family: 'Source Code Pro', monospace;
+}
+    ::selection {
+        color: white;
+        background: #5c6ac4;
     }
 
-    .nuxt-link-exact-active{
-        color: #f687b3;
-    }
+.nuxt-link-exact-active {
+    color: #5c6ac4;
+}
 </style>
