@@ -1,6 +1,6 @@
 <template>
-    <div class="grid grid-cols-11 gap-0">
-            <div class="col-start-4 col-end-9 mx-12">
+    <div class="md:grid md:grid-cols-11 md:gap-0">
+            <div class="md:col-start-4 md:col-end-9 mx-12">
                 <h3>Projects</h3>
                 <p>Currently working on: V2 of <a href="#cyberbub" class="text-primary">Cyberbub</a></p>
 

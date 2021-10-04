@@ -6,11 +6,11 @@
                     <NuxtLink to="/" class="">Home</NuxtLink>
                     <NuxtLink to="/projects" class="mx-4">Projects</NuxtLink>
                     <NuxtLink to="/about" class="mr-4">About</NuxtLink>
-                    <a href="mailto:hey_arpit@outlook.com">Hire me!</a>
+                    <a target="_top" href="mailto:hey_arpit@outlook.com">Hire me!</a>
                 </div>
             </nav>
-            <div class="grid grid-cols-11 gap-0 mb-10 mt-12">
-                <div class="col-start-4 col-end-9 mx-12">
+            <div class="md:grid md:grid-cols-11 gap-0 mb-10 mt-12">
+                <div class="md:col-start-4 md:col-end-9 mx-12">
                     <div class="border-b flex pb-10">
                         <img src="~/assets/me.jpeg" alt="" class="border rounded-full w-32">
                         <div class="flex flex-col items-start justify-center ml-8">
