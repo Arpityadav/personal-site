@@ -6,7 +6,7 @@
                     <NuxtLink to="/" class="">Home</NuxtLink>
                     <NuxtLink to="/projects" class="mx-4">Projects</NuxtLink>
                     <NuxtLink to="/about" class="mr-4">About</NuxtLink>
-                    <NuxtLink to="#" class="mr-4">Hire me!</NuxtLink>
+                    <a href="mailto:hey_arpit@outlook.com">Hire me!</a>
                 </div>
             </nav>
             <div class="grid grid-cols-11 gap-0 mb-10 mt-12">
