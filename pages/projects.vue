@@ -64,12 +64,9 @@
                 <ul class="border-b list-disc mono mt-4 pb-6 text-gray-800">
                     <img src="../assets/cart.png" alt="Shopping-cart image" class="w-full my-8 shadow-xs">
 
-                    <li class="mt-2">Created with Laravel, Vue.js and Tailwindcss</li>
-                    <li class="mt-2">Backend is fully backed with TDD (PHPUnit)</li>
-                    <li class="mt-2">Users can create a thread and vote to other threads in real time</li>
-                    <li class="mt-2">Comments and Replies in a thread will be posted in real time</li>
-                    <li class="mt-2">Created just for fun and to test my knowledge, also does not have the all the reddit functions (ofcourse!)</li>
-
+                    <li class="mt-2">Created with Laravel, Vue.js and Bootstrap</li>
+                    <li class="mt-2">Uses stripe as backend for payment</li>
+                    
                     <a href="https://github.com/Arpityadav/ShoppingCart" class="text-sm text-gray-800 hover:text-gray-700 hover:underline">View Source Code</a>
                 </ul>
 
